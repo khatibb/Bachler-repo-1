@@ -23,7 +23,7 @@ if __name__ == '__main__':
     parser.add_argument('--phase', type=str, default='meta_train', choices=['pre_train', 'meta_train', 'meta_eval']) # Phase
     parser.add_argument('--seed', type=int, default=0) # Manual seed for PyTorch, "0" means using random seed
     parser.add_argument('--gpu', default='1') # GPU id
-    parser.add_argument('--dataset_dir', type=str, default='./mini/mini-imagenet/') # Dataset folder
+    parser.add_argument('--dataset_dir', type=str, default='./mini-imagenet/') # Dataset folder
     #./data/mini/mini-imagenet/
     #/content/gdrive2/My Drive/metatransferlearning/data/mini/mini-imagenet
     # Parameters for meta-train phase
